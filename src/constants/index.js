@@ -6,7 +6,8 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `As a seasoned frontend web developer, the candidate adeptly wields HTML, CSS, and JavaScript to craft captivating digital experiences. With a keen eye for design and a passion for user interaction, they've honed their skills in developing sleek, responsive websites. Their proficiency extends to React, where they leverage its power to create dynamic, efficient interfaces. Their portfolio speaks volumes, showcasing a mastery of frontend technologies and a commitment to delivering polished, user-centric solutions.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `Welcome to my portfolio! As a passionate and motivated fresher, I specialize in C++ and C programming, with hands-on experience in developing projects using the MERN stack (MongoDB, Express.js, React, Node.js). My portfolio showcases a variety of projects that demonstrate my proficiency in both front-end and back-end development. Through these projects,
+ I have honed my skills in building dynamic, responsive web applications and solving complex problems. Explore my work to see how I blend creativity with technical expertise to deliver innovative solutions. Let’s connect and create something amazing together!.`;
 
 export const EXPERIENCES = [
   
@@ -22,6 +23,7 @@ export const EXPERIENCES = [
       stream:"(Artificial Intelligence and Machine Learning)",
       description:`Meerut Institute of Engineering and Technology`,
       technologies: ["79%"],
+
     },
     {
      year: "2019 - 2020",
@@ -38,7 +40,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Digiter",
+    title: "https://github.com/",
     image: project1,
     description:
       "A Model used to recognize handwritten digits. Comapared multiple ML Algorithms like- SVM, RFC, MLP and found CNN as the best algorithm with acuuracy score of 99 %",

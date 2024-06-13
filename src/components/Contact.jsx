@@ -12,7 +12,10 @@ const Contact = () => {
       className="my-10 text-center text-4xl">Get In Touch
       </motion.h1>  
 
-<div className="flex justify-center items-center">
+<div 
+
+
+className="flex justify-center items-center">
   <form action="https://getform.io/f/navvldra" method="POST" className="flex flex-col w-full md:w-1/2">
     <input type="text" name="name" 
     placeholder="Enter your name"

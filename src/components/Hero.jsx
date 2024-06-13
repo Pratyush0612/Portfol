@@ -1,6 +1,8 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/mypic2.jpg";
 import {motion } from "framer-motion"
+import { useEffect, useRef } from "react";
+import Typed from "typed.js";
 const container=(delay)=>({
     hidden:{x:100,opacity:0},
     visible:{
@@ -10,7 +12,43 @@ const container=(delay)=>({
     },
 })
 
+const iconVariants=(duration)=>({
+    initial:{y:-10},
+    animate:{
+      y:[10,-10],
+      transition: {
+          duration:duration,
+          ease:"linear",
+          repeat: Infinity,
+          repeatType:"reverse",
+      }
+    }  
+  })
+
+
 const Hero = () => {
+    const el=useRef(null);
+    useEffect(() => {
+        const typed = new Typed(el.current, {
+            strings: ["Full Stack Developer","Machine Learning Engineer" ], // Strings to display
+            // Speed settings, try diffrent values untill you get good results
+            startDelay: 40,
+            typeSpeed: 50,
+            backSpeed: 10,
+            backDelay: 100,
+            smartBackspace: true,
+      loop: true,
+      showCursor: true,
+    //   cursorChar: "!"
+          });
+      
+          // Destropying
+          return () => {
+            typed.destroy();
+          };
+        }, []);
+        
+
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-30">
     <div className="flex flex-wrap">
@@ -20,37 +58,34 @@ const Hero = () => {
      variants={container(0)}
      initial="hidden"
      animate="visible"
-     className="pb-16 text-6xl font-thin tracking-tight lg:mt-16
-            lg:text-8xl">Pratyush Tyagi
-            </motion.h1>
+     className="pb-14 text-4xl font-thin tracking-tight lg:mt-16
+            lg:text-8xl text-red-500">Pratyush Tyagi
+               </motion.h1>
             <motion.span
              variants={container(0.5)}
              initial="hidden"
              animate="visible"
-            className="bg-gradient-to-r from-pink-300
-             via-slate-500 to-purple-500 bg-clip-text text-3xl 
+            className="bg-gradient-to-r from-pink-600
+             via-slate-600 to-red-600 bg-clip-text text-3xl 
              tracking-tight text-transparent">
-                Web Developer 
+                   {/* className="bg-gradient-to-r from-pink-300
+             via-slate-500 to-purple-500 bg-clip-text text-3xl 
+             tracking-tight text-transparent"> */}
+                <span ref={el}></span>
             </motion.span>
-            <motion.p
-            //  variants={container(1)}
+            {/* <motion.p */}
+            {/* //  variants={container(1)}
             //  initial="hidden"
-            //  animate="visible"
-        whileInView={{opacity:1,x:0}}
-        initial={{opacity:0, x:-100}}
-        transition={{duration:0.5}} 
-            className="my-2 max-w-xl py-6 font-light
-             tracking-tighter text-justify">
-                {HERO_CONTENT}
-            </motion.p>
+            //  animate="visible" */}
+        
         </div>
     </div>
     <div className="rounded-2xl w-full lg:w-1/2 lg:p-3">
         <div className="flex-box justify-center">
             <motion.div 
-        whileInView={{opacity:1, x:0}}
-        initial={{opacity:0 ,x:-100}}
-        transition={{duration :0.5}}
+       variants={iconVariants(2.3)}
+       initial="initial"
+       animate="animate"
         className="w-full lg:p-2">
            <div className="flex items-center justify-center">
             <img className="rounded-2xl" src={profilePic} alt="abt" />

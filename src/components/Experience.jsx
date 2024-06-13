@@ -36,7 +36,7 @@ const Experience = () => {
             <h6 className="mb-2 font-semibold ">
                 {experience.field} {experience.stream}
             </h6>
-
+           
             <p className="mb-4 text-neutral-400">{experience.description}</p>
         {experience.technologies.map((tech,index)=>(
             <span key={index} className="mr-2 mt-4 rounded bg-red-300 px-2 py-1 text-sm font-medium text-red-700">
