@@ -1,13 +1,12 @@
 import { FcEngineering } from "react-icons/fc";
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project1 from "../assets/projects/project-2.jpg";
+// import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `As a seasoned frontend web developer, the candidate adeptly wields HTML, CSS, and JavaScript to craft captivating digital experiences. With a keen eye for design and a passion for user interaction, they've honed their skills in developing sleek, responsive websites. Their proficiency extends to React, where they leverage its power to create dynamic, efficient interfaces. Their portfolio speaks volumes, showcasing a mastery of frontend technologies and a commitment to delivering polished, user-centric solutions.`;
 
-export const ABOUT_TEXT = `Welcome to my portfolio! As a passionate and motivated fresher, I specialize in C++ and C programming, with hands-on experience in developing projects using the MERN stack (MongoDB, Express.js, React, Node.js). My portfolio showcases a variety of projects that demonstrate my proficiency in both front-end and back-end development. Through these projects,
- I have honed my skills in building dynamic, responsive web applications and solving complex problems. Explore my work to see how I blend creativity with technical expertise to deliver innovative solutions. Let’s connect and create something amazing together!.`;
+export const ABOUT_TEXT = `A skilled MERN stack developer with a robust grasp of C++ and Python, I excel in building dynamic web applications and harnessing the power of machine learning. My portfolio showcases diverse projects, including intuitive MERN stack applications and innovative machine learning solutions. Each project highlights my ability to integrate front-end elegance with back-end efficiency, demonstrating a seamless blend of my coding versatility and problem-solving prowess. Explore my work to see how I transform complex requirements into user-friendly, performant applications, driving impactful digital experiences through a fusion of cutting-edge technologies and meticulous craftsmanship.`;
 
 export const EXPERIENCES = [
   

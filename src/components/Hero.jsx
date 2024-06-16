@@ -50,7 +50,7 @@ const Hero = () => {
         
 
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-30">
+    <div className="border-b border-gray-600 pb-4 lg:mb-30">
     <div className="flex flex-wrap">
     <div className="w-full lg:w-1/2">
         <div className="flex flex-col items-center lg:items-start">
@@ -59,7 +59,7 @@ const Hero = () => {
      initial="hidden"
      animate="visible"
      className="pb-14 text-4xl font-thin tracking-tight lg:mt-16
-            lg:text-8xl text-red-500">Pratyush Tyagi
+            lg:text-8xl text-left text-red-500">Pratyush Tyagi
                </motion.h1>
             <motion.span
              variants={container(0.5)}
@@ -72,6 +72,7 @@ const Hero = () => {
              via-slate-500 to-purple-500 bg-clip-text text-3xl 
              tracking-tight text-transparent"> */}
                 <span ref={el}></span>
+               
             </motion.span>
             {/* <motion.p */}
             {/* //  variants={container(1)}
@@ -101,3 +102,4 @@ const Hero = () => {
 }
 
 export default Hero
+

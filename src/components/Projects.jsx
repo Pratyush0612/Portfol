@@ -10,7 +10,7 @@ import events from "../assets/projects/eventimgs.jpg";
 
 const Projects = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div className="border-b border-gray-600 pb-4">
       <div whileInView={{opacity:1,y:0}}
       initial={{opacity:0 ,y:-100}}
       transition={{duration:0.5}}
@@ -54,7 +54,7 @@ const Projects = () => {
        <img src={project3}  alt="" />
         <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70
         absolute inset-0 flex flex-col justify-center items-center ">
-          <span className="text-2xl font-bold text-white tracking-wider">Handwritten Digit Recognition
+          <span className="text-2xl text-center font-bold text-white tracking-wider">Handwritten Digit Recognition
         </span>
         <div className="pt-8 text-center">          
           <a href="https://github.com/Pratyush0612/HDRecog.">
@@ -92,7 +92,7 @@ const Projects = () => {
        <img src={project2}  alt="" />
         <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70
         absolute inset-0 flex flex-col justify-center items-center ">
-          <span className="text-2xl font-bold text-white tracking-wider">Number Plate Recognition
+          <span className="text-2xl text-center font-bold text-white tracking-wider">Number Plate Recognition
         </span>
         <div className="pt-8 text-center">          
           <a href="https://github.com/Pratyush0612/Number-Plate-recog-using-tesseract">
@@ -129,7 +129,7 @@ const Projects = () => {
        <img src={project4}  alt="" />
         <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70
         absolute inset-0 flex flex-col justify-center items-center ">
-          <span className="text-2xl font-bold text-white tracking-wider">Sentiment Analysis of Movies Dataset
+          <span className="text-2xl text-center font-bold text-white tracking-wider">Sentiment Analysis of Movies Dataset
         </span>
         <div className="pt-8 text-center">          
           <a href="https://github.com/Pratyush0612/Movie-Recommendation-System?tab=readme-ov-file">
