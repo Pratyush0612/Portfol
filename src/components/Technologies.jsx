@@ -14,6 +14,8 @@ import { SiTensorflow } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { DiMysql } from "react-icons/di";
+import { SiOpencv } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
 
 import {motion } from "framer-motion";
 
@@ -171,7 +173,14 @@ const Technologies = () => {
              initial="initial"
              animate="animate"
              className="rounded-2xl border-4 border-neutral-800 p-4">
-        <BiLogoPostgresql className="text-7xl text-sky-700"/>    
+        <SiOpencv className="text-7xl text-blue-700"/>    
+        </motion.div>
+        <motion.div
+             variants={iconVariants(2.5)}
+             initial="initial"
+             animate="animate"
+             className="rounded-2xl border-4 border-neutral-800 p-4">
+        <SiExpress className="text-7xl text-white"/>    
         </motion.div>
         </motion.div>
         </div>

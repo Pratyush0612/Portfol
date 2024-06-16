@@ -57,7 +57,7 @@ const Projects = () => {
           <span className="text-2xl text-center font-bold text-white tracking-wider">Handwritten Digit Recognition
         </span>
         <div className="pt-8 text-center">          
-          <a href="https://github.com/Pratyush0612/HDRecog.">
+          <a href="https://github.com/Pratyush0612/HDRecog." target="blank">
             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
               Code
               </button>
@@ -76,7 +76,7 @@ const Projects = () => {
           <span className="text-2xl font-bold text-white tracking-wider">Eventr
         </span>
         <div className="pt-8 text-center">          
-          <a href="https://github.com/Pratyush0612/Event-webs">
+          <a href="https://eventm.vercel.app/" target="blank">
             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
               Live
               </button>
@@ -95,7 +95,7 @@ const Projects = () => {
           <span className="text-2xl text-center font-bold text-white tracking-wider">Number Plate Recognition
         </span>
         <div className="pt-8 text-center">          
-          <a href="https://github.com/Pratyush0612/Number-Plate-recog-using-tesseract">
+          <a href="https://github.com/Pratyush0612/Number-Plate-recog-using-tesseract" target="blank">
             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
               Code
               </button>
@@ -113,7 +113,7 @@ const Projects = () => {
           <span className="text-2xl font-bold text-white tracking-wider">The Pepertown
         </span>
         <div className="pt-8 text-center">          
-          <a href="https://pratyush0612.github.io/Pprtown/">
+          <a href="https://pratyush0612.github.io/Pprtown/" target="blank">
             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
               Live
               </button>
@@ -132,7 +132,7 @@ const Projects = () => {
           <span className="text-2xl text-center font-bold text-white tracking-wider">Sentiment Analysis of Movies Dataset
         </span>
         <div className="pt-8 text-center">          
-          <a href="https://github.com/Pratyush0612/Movie-Recommendation-System?tab=readme-ov-file">
+          <a href="https://github.com/Pratyush0612/Movie-Recommendation-System?tab=readme-ov-file" target="blank">
             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
               Code
               </button>

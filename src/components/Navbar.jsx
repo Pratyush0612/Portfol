@@ -17,13 +17,13 @@ const Navbar = () => {
         {/* <FaSquareXTwitter />
         <FaInstagram /> */}
 
-      <a href="https://leetcode.com/u/pratyushm0612/">
+      <a href="https://leetcode.com/u/pratyushm0612/" target="_blank">
         <TbBrandLeetcode />
       </a>
-       <a href="https://www.linkedin.com/in/pratyush-tyagi0612/">
+       <a href="https://www.linkedin.com/in/pratyush-tyagi0612/"  target="_blank">
         <FaLinkedin />
         </a>
-        <a href="https://github.com/Pratyush0612">
+        <a href="https://github.com/Pratyush0612"  target="_blank">
         <FaGithub />
   </a> 
     </div>
