@@ -50,7 +50,7 @@ const Hero = () => {
         
 
   return (
-    <div className="border-b border-gray-600 pb-4 lg:mb-30">
+    <div className="border-b border-gray-600 pb-4 lg:mb-30 ">
     <div className="flex flex-wrap">
     <div className="w-full lg:w-1/2">
         <div className="flex flex-col items-center lg:items-start">
@@ -78,7 +78,11 @@ const Hero = () => {
             {/* //  variants={container(1)}
             //  initial="hidden"
             //  animate="visible" */}
-        
+        </div>
+            <div className="mt-5 text-neutral-500">
+        <p>Discover my journey through 
+        cutting-edge projects and technical expertise showcased 
+        on my dynamic portfolio website</p>
         </div>
     </div>
     <div className="rounded-2xl w-full lg:w-1/2 lg:p-3">

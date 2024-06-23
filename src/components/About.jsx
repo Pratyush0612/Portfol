@@ -30,9 +30,9 @@ const About = () => {
         className="w-full lg:w-1/2">
         <div className="flex justify-center 
                 lg:justify-start">
-          <p className="my-2 max-w-xl py-6 text-justify">{ABOUT_TEXT}</p>
+          <p className="my-2 max-w-xl py-6 text-neutral-500 text-justify">{ABOUT_TEXT}</p>
           </div>
-          <a href="https://drive.google.com/file/d/1kL-XezFaoClIXDDhih4vHN9133U17JB5/view?usp=sharing" target="_blank">
+          <a href="https://drive.google.com/file/d/1571Y0cbHQzCZbJAgXCsue5LsCjr2pWJd/view?usp=sharing" target="_blank">
 
           <button className="text-red-900 bg-red-300
      px-2 py-3 my-2 mx-auto rounded-md hover:scale-110 duration-300">

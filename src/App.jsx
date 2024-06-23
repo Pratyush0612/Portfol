@@ -10,7 +10,7 @@ const App = () => {
   return (
     // <div className='text-3xl font-bold underline'>Heelo</div>
   <div className="overflow-x-hidden text-neutral-300 antialiased 
-  selection:bg-cyan-300 selection:text-cyan-900">
+  selection:bg-cyan-300 selection:text-cyan-900 bg-neutral-800">
 
 <div className="fixed top-0 -z-10 h-full w-full">
     <div className="absolute top-0 z-[-2] h-screen w-screen
