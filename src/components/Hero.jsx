@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/mypic2.jpg";
+// import profilePic from "../assets/mypic2.jpg";
 import {motion } from "framer-motion"
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
@@ -93,7 +93,7 @@ const Hero = () => {
        animate="animate"
         className="w-full lg:p-2">
            <div className="flex items-center justify-center">
-            <img className="rounded-2xl" src={profilePic} alt="abt" />
+            {/* <img className="rounded-2xl" src={profilePic} alt="abt" /> */}
         </div>
             </motion.div> 
 
