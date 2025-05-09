@@ -1,5 +1,4 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/mypic2.jpg";
 import {motion } from "framer-motion"
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
