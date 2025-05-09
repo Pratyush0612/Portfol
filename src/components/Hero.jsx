@@ -93,7 +93,7 @@ const Hero = () => {
        animate="animate"
         className="w-full lg:p-2">
            <div className="flex items-center justify-center">
-            <img className="rounded-2xl" src={profilePic} alt="abt" />
+           
         </div>
             </motion.div> 
 
