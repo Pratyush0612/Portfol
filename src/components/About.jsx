@@ -1,4 +1,4 @@
-import profilePic from "../assets/mypic2.jpg";
+
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 const About = () => {
